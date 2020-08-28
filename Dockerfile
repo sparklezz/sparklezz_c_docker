@@ -14,5 +14,4 @@ RUN apt-get install -y cmake ninja-build && pip3 install scikit-build twine
 # install deps for python module
 RUN apt-get install -y python3-dev
 
-# dddd
 WORKDIR /home
